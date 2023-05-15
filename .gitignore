@@ -1,0 +1,6 @@
+.idea
+/git-*
+/docker-*
+/.docker-*
+!/docker-entrypoint-initdb.d/
+*.iml
