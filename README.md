@@ -9,7 +9,7 @@ Official Docker MariaDB Image of [Synaps.is](https://synaps.is)
 ## Dockerfile Example
 
 ```dockerfile
-FROM syis/mariadb:10
+FROM syis/mariadb:latest
 
 # An initialization script creates the needed
 # databases by reading the environments named:
