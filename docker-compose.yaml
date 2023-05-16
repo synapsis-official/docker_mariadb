@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  mariadb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: syis/mariadb:latest
+    environment:
+      MARIADB_ROOT_PASSWORD: YourMariaDbRootPassword
+      MARIADB_1_NAME: db_name
+      MARIADB_1_USER: db_user
+      MARIADB_1_PASSWORD: YourMariaDb1Password
+      MARIADB_2_NAME: db_2_name
+      MARIADB_2_USER: db_2_user
+      MARIADB_2_PASSWORD: YourMariaDb2Password
+    ports:
+      - "3306:3306"
