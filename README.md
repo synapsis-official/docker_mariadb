@@ -20,6 +20,8 @@ FROM syis/mariadb:latest
 # The script cycle over the numbers (by starting from 1),
 # until it NOT find a variable named MARIADB_i_NAME
 
+ENV MARIADB_ROOT_PASSWORD='secret'
+
 ENV MARIADB_1_NAME='db_name'
 ENV MARIADB_1_USER='db_user'
 ENV MARIADB_1_PASSWORD='db_password'
