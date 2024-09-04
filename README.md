@@ -1,6 +1,6 @@
 # MariaDB
 
-Official Docker MariaDB Image of [Synaps.is](https://synaps.is)
+Official Docker MariaDB Image of [Synapsis](https://syis.eu)
 
 ## Docker Image content
 
